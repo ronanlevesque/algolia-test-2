@@ -1,0 +1,21 @@
+@import "../../settings/variables.scss";
+@import "../../settings/mixins.scss";
+
+.App {
+  min-height: 100vh;
+  color: $txt-dark-default;
+  background-color: #f5f5f5;
+
+  &--classy {
+    font-family: serif;
+    color: $txt-dark-classy;
+    background-color: $bg-dark-classy;
+  }
+
+  &--ugly {
+    // I'm not even sorry.
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    color: $txt-dark-ugly;
+    background-color: $bg-dark-ugly;
+  }
+}

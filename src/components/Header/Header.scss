@@ -1,0 +1,52 @@
+@import "../../settings/variables.scss";
+@import "../../settings/mixins.scss";
+
+.Header {
+  color: #fff;
+  background-color: $bg-dark-default;
+
+  .App--classy & {
+    color: $txt-gold-classy;
+    background-color: $bg-dark-classy;
+  }
+
+  .App--ugly & {
+    color: #fff;
+    background-color: $bg-dark-ugly;
+  }
+}
+
+.Header-content {
+  padding: 2rem;
+  margin: auto;
+  position: relative;
+  max-width: 140rem;
+}
+
+.Header-title {
+  margin: 0 0 0 .5em;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1.5rem;
+  font-weight: normal;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+
+  @include bp($bp-medium) {
+    font-size: 2rem;
+  }
+}
+
+.Header-logo {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  top: -.1rem;
+  width: 18px;
+  height: 18px;
+  fill: #fff;
+
+  .App--classy & {
+    fill: $bg-gold-classy;
+  }
+}

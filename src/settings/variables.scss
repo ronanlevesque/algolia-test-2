@@ -1,0 +1,32 @@
+// BREAKPOINTS
+
+$bp-xsmall: 500;
+$bp-small: 768;
+$bp-medium: 1024;
+$bp-large: 1440;
+$bp-xlarge: 1920;
+
+// COLORS
+// Define colors first before assigning them to texts and backgrounds in order to make this more maintainable
+
+$dark-default: #1D2F40;
+$dark-classy: #111;
+$dark-ugly: #0018ff;
+$light-ugly: #ff81f2;
+$gold: #f1c90e;
+
+// TEXT COLORS
+
+$txt-dark-default: $dark-default;
+$txt-dark-classy: $dark-classy;
+$txt-gold-classy: $gold;
+$txt-dark-ugly: $dark-ugly;
+$txt-light-ugly: $light-ugly;
+
+// BACKGROUND COLORS
+
+$bg-dark-default: $dark-default;
+$bg-dark-classy: $dark-classy;
+$bg-gold-classy: $gold;
+$bg-dark-ugly: $dark-ugly;
+$bg-light-ugly: $light-ugly;

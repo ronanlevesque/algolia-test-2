@@ -1,0 +1,18 @@
+@import "../../settings/variables.scss";
+@import "../../settings/mixins.scss";
+
+.Results {
+  margin: auto;
+  max-width: 140rem;
+  padding: 1rem 2rem;
+
+  @include bp($bp-xsmall) {
+    padding: 1rem;
+  }
+
+  // Customize ais components directly from their parent element to find them easily
+  .ais-Hits__root {
+    display: flex;
+    flex-flow: row wrap;
+  }
+}

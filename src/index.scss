@@ -1,0 +1,34 @@
+* {
+  // A must-have in order to avoid useless calculations
+  box-sizing: border-box;
+}
+
+html {
+  // This will make calculations more simple with rem
+  // 1rem = 10px
+  font-size: 62.5%;
+  // IE fix
+  font-size: calc(1em * .625);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  // Set default font-size to the equivalent of 16px
+  font-size: 1.6rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2 {
+  // Unitless line-height
+  // as per http://meyerweb.com/eric/thoughts/2006/02/08/unitless-line-heights/
+  line-height: 1.2;
+}
+
+p, ul, li {
+  line-height: 1.4;
+}
