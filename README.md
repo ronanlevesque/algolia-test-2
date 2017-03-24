@@ -1,6 +1,6 @@
 # Algolia-test-2
 
-This test is my attempt at **integrating a react-instantsearch inside a custom app**. The goal of this was to discover how react-instantsearch works under the hood, as well as showing how I tend to structure my folders and files with maintainability in mind. I've added only the most essential widgets, as well as building three different themes. All of them are **fully responsive** and will work from small iPhone resolution to big desktop screens.
+This test is my attempt at **integrating a react-instantsearch inside a custom app**. The goal of this was to discover how react-instantsearch works under the hood, as well as showing how I tend to structure my folders and files with maintainability in mind. I've added only the most essential widgets, as well as building three different themes. All of them are **fully responsive** and will work from small iPhone resolution up to big desktop screens.
 
 On a side note, I have to say I'm very impressed at how easy it is to integrate and customize react-instantsearch onto an existing app. The only problem I ran into wasn't a big one: it seems I didn't have the possibility to customize the DOM provided by the widgets (eg. have `ais-Hits__root` as a `ul` instead of a `div`).
 
