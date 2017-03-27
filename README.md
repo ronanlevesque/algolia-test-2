@@ -4,9 +4,20 @@ This test is my attempt at **integrating a react-instantsearch inside a custom a
 
 On a side note, I have to say I'm very impressed at how easy it is to integrate and customize react-instantsearch onto an existing app. The only problem I ran into wasn't a big one: it seems I didn't have the possibility to customize the DOM provided by the widgets (eg. have `ais-Hits__root` as a `ul` instead of a `div`).
 
+## Live preview
+
+ Always available at http://receptionist-exhausts-10775.netlify.com.
+
+ Deploy a new preview with:
+
+ ```sh
+ yarn
+ yarn deploy
+ ```
+
 ## How-to
 
-Run `npm install && npm start` to launch the app at http://localhost:3000/.
+Run `yarn && yarn start` to launch the app in dev mode at http://localhost:3000/.
 
 ## Stack and approach
 
